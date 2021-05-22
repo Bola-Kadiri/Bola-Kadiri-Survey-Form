@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bola-Kadiri Survey Landing Page</title>
+        <link rel="stylesheet" type="text/css" href="styleS.css">
+    </head>
+    <body>
+      <div class="header">
+        <h1>freeCodeCamp Survey Form</h1>
+        <p>Thank you for taking the time to help us improve the platform</p>
+    <form id="form">
+  
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Name
+            </label>
+            <input type="text"
+                   id="name"
+                   placeholder="Enter your name" />
+        </div>
+   
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Email
+            </label>
+            <input type="email"
+                   id="email"
+                   placeholder="Enter your email" />
+        </div>
+   
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Age (optional)
+            </label>
+            <input type="text"
+                   id="age"
+                   placeholder="age" />
+        </div>
+   
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Which option best describes your current role?
+            </label>
+            <select name="role" id="role">
+                <option value="position">Select current role</option>
+                <option value="job">Full time job</option>
+                <option value="professional">
+                    Full time leaner
+                </option>
+                <option value="personal">
+                    Prefer not to say
+                </option>
+
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label>What would you like to see improved?  (Check all that apply)
+            </label>
+            <label for="inputes-a">
+                <input type="checkbox"
+                       name="inp">Front-end Project</input></label>
+            <label for="inputed-b">
+                <input type="checkbox"
+                       name="inp">Back-end Project</input></label>
+            <label for="inputed-c">
+                <input type="checkbox"
+                       name="inp">Data Visualisation/input></label>
+            <label for="inputed-d">
+                <input type="checkbox"
+                       name="inp">Challenges</input></label>
+            <label for="inputed-e">
+                <input type="checkbox"
+                       name="inp">Open source Community</input></label>
+            <label for="inputed-f">
+                <input type="checkbox"
+                       name="inp">Gitter help Rooms</input></label>
+            <label for="inputed-g">
+                <input type="checkbox"
+                       name="inp">Videos</input></label>
+            <label for="inpted-h">
+                <input type="checkbox"
+                       name="inp">City Meetups</input></label>
+            <label for="inputed-i">
+                <input type="checkbox"
+                       name="inp">Wiki</input></label>
+            <label for="inputed-j">
+                <input type="checkbox"
+                       name="inp">Forum</input></label>
+            <label for="inputed-k">
+                <input type="checkbox"
+                        name="inp">Additional Courses</input></label>
+        </div>
+   
+        <div class="form-control">
+            <label for="comment">
+                Any comments or suggestions
+            </label>
+            <textarea name="comment" id="comment"
+                placeholder="Enter your comment here">Enter your comment here
+            </textarea>
+        </div>
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+    </body>
+</html>
